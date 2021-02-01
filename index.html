@@ -18,10 +18,12 @@
   <body>
     <header class="header main-grid">
       <div class="header-content">
-        <a>
-          <img src="img/logo.png" alt="" class="logo">Jake&Elwood</img>
+        <a class="logo-link" href="index.html">
+          <h2 class="logo">Jake&Elwood</h2>
         </a>
-        <nav class="nav">
+        <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+        <nav class="nav navigation-open">
+          <button aria-label="Close navigation" class="close-nav">&times;</button>
           <ul class="nav-list">
             <li class="nav-item"><a href="#" class="nav-link">home</a></li>
             <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
@@ -44,7 +46,7 @@
         <a class="btn btn-primary" href="#">contact us</a>
       </section>
 
-      <section class="info">
+      <section class="info main-grid">
         <div class="col">
           <h2 class="section-title section-title-center">About Us</h2>
           <p>
@@ -83,5 +85,7 @@
             <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
         </ul>     
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
